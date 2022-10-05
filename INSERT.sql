@@ -1,4 +1,4 @@
---	не менее 8 исполнителей:
+--не менее 8 исполнителей:
 insert into singer(singer_id, name_singer) 
 	values(1, 'Frank Sinatra');
 insert into singer(singer_id, name_singer)
@@ -34,21 +34,21 @@ select * from genre;
 
 --не менее 8 альбомов:
 insert into album(album_id, name_album, release_date)
-	values(1, 'Christmas', '03.11.1975');
+values(1, 'Christmas', '03.11.1975');
 insert into album(album_id, name_album, release_date)
-	values(2, 'Pure Gold', '23.12.2005');
+values(2, 'Pure Gold', '23.12.2005');
 insert into album(album_id, name_album, release_date)
-	values(3, 'Crossroads', '15.07.1988');
+values(3, 'Crossroads', '15.07.1988');
 insert into album(album_id, name_album, release_date)
-	values (4, 'Celebration', '18.09.2009');
+values (4, 'Celebration', '18.09.2018');
 insert into album(album_id, name_album, release_date)
-	values(5, 'Dangerous', '28.08.1991');
+values(5, 'Dangerous', '28.08.1991');
 insert into album(album_id, name_album, release_date)
-	values(6, 'Curtis', '10.01.2007');
+values(6, 'Curtis', '10.01.2018');
 insert into album(album_id, name_album, release_date)
-	values(7, 'The Black Album', '18.05.2003');
+values(7, 'The Black Album', '18.05.2018');
 insert into album(album_id, name_album, release_date)
-	values(8, 'Love', '06.10.2006');
+values(8, 'Love', '06.10.2006');
 
 select * from album;
 
@@ -154,9 +154,3 @@ insert into song_collection(collection_id, album_id, song_id)
 	values(7, 6, 1);
 insert into song_collection(collection_id, album_id, song_id)
 	values(8, 8, 2);
-
-
-  
-
-
-

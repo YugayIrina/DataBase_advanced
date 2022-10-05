@@ -22,6 +22,3 @@ WHERE name_singer NOT LIKE '%% %%';
 SELECT name_song FROM song
 WHERE name_song LIKE '%%my%%';
 
-
-
-

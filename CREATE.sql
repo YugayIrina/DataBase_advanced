@@ -46,4 +46,3 @@ create table if not exists song_collection(
 	album_id integer not null references album(album_id),
 	song_id integer not null references song(song_id)
 );
-
