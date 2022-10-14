@@ -1,4 +1,4 @@
---не менее 8 исполнителей:
+--	не менее 8 исполнителей:
 insert into singer(singer_id, name_singer) 
 	values(1, 'Frank Sinatra');
 insert into singer(singer_id, name_singer)
@@ -40,15 +40,15 @@ values(2, 'Pure Gold', '23.12.2005');
 insert into album(album_id, name_album, release_date)
 values(3, 'Crossroads', '15.07.1988');
 insert into album(album_id, name_album, release_date)
-values (4, 'Celebration', '18.09.2018');
+values (4, 'Celebration', '18.09.2019');
 insert into album(album_id, name_album, release_date)
 values(5, 'Dangerous', '28.08.1991');
 insert into album(album_id, name_album, release_date)
-values(6, 'Curtis', '10.01.2018');
+values(6, 'Curtis', '10.01.2019');
 insert into album(album_id, name_album, release_date)
-values(7, 'The Black Album', '18.05.2018');
+values(7, 'The Black Album', '18.05.2020');
 insert into album(album_id, name_album, release_date)
-values(8, 'Love', '06.10.2006');
+values(8, 'Love', '06.10.2020');
 
 select * from album;
 
@@ -96,7 +96,7 @@ values
     (2, 'Love song collection', '2021-12-20'),
     (3, 'Star collection', '2018-08-10'),
     (4, 'Happy collection', '2019-11-15'),
-    (5, 'Meoonlight collection', '2020-07-23'),
+    (5, 'Moonlight collection', '2020-07-23'),
     (6, 'Christmas collection', '2002-06-11'),
     (7, 'Life collection', '2018-03-10'),
     (8, 'Celebrity collection', '2020-09-17');
